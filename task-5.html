@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 5</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <p><a href="./index.html">Go back</a></p>
+
+    <div class="widget">
+      <div class="color-box">
+        <p class="color-text">Background color: <span class="color">-</span></p>
+        <button type="button" class="change-color">Change color</button>
+      </div>
+    </div>
+
+    <style>
+      body {
+        font-family: "Montserrat", sans-serif;
+        margin: 0;
+        padding: 40px;
+        background-color: #f4f4f4;
+        color: #2e2f42;
+      }
+
+      .widget {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 100px 88px;
+        width: 345px;
+        height: 280px;
+        border-radius: 8px;
+        background: #fff;
+        box-sizing: border-box;
+      }
+
+      .color-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        width: 169px;
+        height: 80px;
+      }
+
+      .color-text {
+        margin: 0;
+        font-size: 16px;
+        letter-spacing: 0.04em;
+        line-height: 1.5;
+        font-weight: 400;
+      }
+
+      .color {
+        font-weight: 500;
+      }
+
+      .change-color {
+        all: unset;
+        display: inline-flex;
+        width: 148px;
+        height: 40px;
+        background-color: #4e75ff;
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.04em;
+        line-height: 1;
+        border-radius: 8px;
+        cursor: pointer;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+        text-align: center;
+        transition: background-color 0.3s ease;
+        flex-shrink: 0;
+      }
+
+      .change-color:hover {
+        background-color: #3a5fcb;
+      }
+    </style>
+    <script src="./js/task-5.js" type="module"></script>
+  </body>
+</html>

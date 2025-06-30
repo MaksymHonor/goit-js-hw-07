@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 1</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <p><a style="text-decoration: none" href="./index.html">Go back</a></p>
+
+    <ul id="categories">
+      <li class="item">
+        <h2>Animals</h2>
+
+        <ul>
+          <li>Cat</li>
+          <li>Hamster</li>
+          <li>Horse</li>
+          <li>Parrot</li>
+        </ul>
+      </li>
+      <li class="item">
+        <h2>Products</h2>
+
+        <ul>
+          <li>Bread</li>
+          <li>Prasley</li>
+          <li>Cheese</li>
+        </ul>
+      </li>
+      <li class="item">
+        <h2>Technologies</h2>
+
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+        </ul>
+      </li>
+    </ul>
+    <style>
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        border-radius: 8px;
+        padding: 16px;
+        width: 392px;
+        background: #f6f6fe;
+        margin-bottom: 24px;
+      }
+
+      .item h2 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.333;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+        margin: 0;
+      }
+
+      .item ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: 0;
+      }
+
+      .item ul li {
+        width: 360px;
+        height: 40px;
+        padding: 8px 16px;
+        border: 1px solid #808080;
+        border-radius: 4px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+        display: flex;
+        align-items: center;
+      }
+    </style>
+
+    <script src="./js/task-1.js" type="module"></script>
+  </body>
+</html>
